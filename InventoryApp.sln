@@ -10,6 +10,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "src\apps\Api\Api.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "src\apps\Consumer\Consumer.csproj", "{E9B63F4D-8A68-446A-8DDC-5522AE95CD0C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{53B37281-5C5D-4634-899C-9837F9A121CC}"
+ProjectSection(SolutionItems) = preProject
+	_deps\docker-compose.yml = _deps\docker-compose.yml
+	.gitignore = .gitignore
+	README.md = README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

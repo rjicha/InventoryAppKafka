@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package cz.inventoryapp.protobuf;
+
+option csharp_namespace = "InventoryApp.Domain";
+
+message Item {
+	int32 id = 1;
+	string title = 2;
+	string room = 3;
+}

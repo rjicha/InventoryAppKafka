@@ -26,3 +26,7 @@ $ dotnet run
 $ cd src/apps/Consumer
 $ dotnet run
 ```
+
+## Use
+
+http://localhost:5000/swagger/index.html
